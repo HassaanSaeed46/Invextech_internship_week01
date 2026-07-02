@@ -14,7 +14,6 @@ console.log(gethighestscorer(students));
 function splitCandies(candies, students) {
   let eachStudentGets = Math.floor(candies / students);
   let leftOver = candies % students;
-
   return {
     eachStudentGets,
     leftOver
